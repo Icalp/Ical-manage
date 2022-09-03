@@ -82,10 +82,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[ᴛᴜʀʙᴏ ʀᴏʙᴏᴛ](https://t.me/TurboHiroBot)」───
+ ───「[ᴅᴀᴘs ʀᴏʙᴏᴛ](https://t.me/assdaps_bot)」───
 *Hello {} !*
 ────────────────────
-ᴛᴜʀʙᴏ ʀᴏʙᴏᴛ ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
+ᴅᴀᴘs ʀᴏʙᴏᴛ ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
 ────────────────────
 ʜɪᴛ ᴛʜᴇ /help ᴏʀ ᴛᴀᴘ ᴏɴ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅ ᴏɴ ᴍᴇ.
 """
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="+ ᴀᴅᴅ ᴛᴜʀʙᴏ-ʀᴏʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +", url="t.me/TurboHiroBot?startgroup=true"
+            text="+ ᴀᴅᴅ ᴅ♬ᴘs ʀ០ʙ០ᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +", url="t.me/assdaps_bot?startgroup=true"
         ),
     ],
     [
@@ -104,7 +104,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/hiroshisupport"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/privategrupnya"
         ),
         InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
         ),
@@ -115,10 +115,10 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PRIME_IMG = "https://telegra.ph/file/a812161d0dc1c7500762d.jpg"
+PRIME_IMG = "https://telegra.ph/file/6892c219f63741779fd9b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Bisuinhiro \
+ You can support the project by contacting @itsdaps \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -235,7 +235,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Turbo Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Daps Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -366,14 +366,14 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="❒ I'm *Hiroshi*, a powerful group management bot built to help you manage your group easily."
+            text="❒ I'm *Daps*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Hiroshi's licensed under the GNU General Public License v3.0_"
+            "\n\n_Daps's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for Hiroshi.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -441,14 +441,14 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*❒ Hiroshi support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Hiroshi.",
+            text="*❒ Ical support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Daps.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/hiroshisupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/bombleebas"),
+                    InlineKeyboardButton(text="Support", url="t.me/privategrupnya"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/projectdaps"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -461,15 +461,15 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>❒ Credis for Hiroshi</b>\n"
-            f"\nHere Developers Making The Hiroshi Robot",
+            text=f"<b>❒ Credis for Daps</b>\n"
+            f"\nHere Developers Making The Daps Robot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Hiro", url="t.me/Bisuinhiro"),
+                    InlineKeyboardButton(text="ical", url="t.me/icalp"),
                     InlineKeyboardButton(text="Tonic", url="t.me/Bukan_guudlooking"),
-                    InlineKeyboardButton(text="Grey", url="t.me/greyyvbss"),
+                    InlineKeyboardButton(text="daps", url="t.me/dapsya"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
