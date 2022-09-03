@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/aeba6ea2125aa7774b1b5.jpg">
+  <img src="https://telegra.ph/file/6892c219f63741779fd9b.jpg">
 </p>
 
-<h4><p align="center"> 𝙃𝙄𝙍𝙊𝙎𝙃𝙄 </p></h4>
+<h4><p align="center"> ᴅᴀᴘs ʀᴏʙᴏᴛ </p></h4>
 
 <p align="center">Hiroshi is a modular bot running on python3 with autobots theme and have a lot features.</p>
 
@@ -13,7 +13,7 @@
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.24.0-red?&style=flat-round&logo=github" alt="Telethon" /> </a>
 <a href="https://docs.python.org"> <img src="https://img.shields.io/badge/Python-3.10.1-purple?&style=flat-round&logo=python" alt="Python" /> </a><br>
 <a href="https://GitHub.com/UserbotMaps/Hiroshi"> <img src="https://img.shields.io/badge/Maintained-Yes-yellow.svg" alt="Maintenance" /> </a><br>
-<a href="https://github.com/UserbotMaps/Hiroshi/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
+<a href="https://github.com/icalp/Ical-manage/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-blue.svg?style=flat-round" alt="PRs" /> </a>
 </p>
 
@@ -22,14 +22,14 @@
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/UserbotMaps/Hiroshi"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ```
-This Bot is Created by Hiroshi Project, If your kanging this without fork at least give a credit to get a smile of my hard work. 
-- HIROSHI
+This Bot is Created by icalp Project, If your kanging this without fork at least give a credit to get a smile of my hard work. 
+- daps
 ```
 
 ### Contributors
 - [『TØNIC』 乂 ₭ILLΣR](https://github.com/Tonic990) : Prime Devs
-- [ Grey ](https://github.com/grey423) : Grey Cilik Devs 
-- [ HIROSHI ](https://github.com/UserbotMaps) : HIROSHI DEV
+- [ icalp ](https://github.com/icalp) : ICAL DEV
+- [ daps ](https://github.com/dapsya) : DAPS DEV
 
 ### Credit
 - Cutiepii
@@ -38,4 +38,4 @@ This Bot is Created by Hiroshi Project, If your kanging this without fork at lea
 - Prime Mega
 - Natsunagi Nagisa
 - Robot Robotan
-- Turbo Robot
+- Daps Robot
